@@ -1,5 +1,4 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
-<title>Groundwork Digital</title>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><style>body{margin:0}[hidden]{display:none!important}</style></head><body><title>Groundwork Digital</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <meta name="description" content="Groundwork Digital designs and builds professional websites for small businesses. Landing pages starting from €350. Free website mockup, no obligation.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -158,6 +157,16 @@ a.site-open{display:block;color:inherit;text-decoration:none;cursor:pointer;outl
 .cap .more:hover{color:var(--pearl)}
 .viewer{position:fixed;inset:0;z-index:300;display:flex;flex-direction:column;background:#000}
 .v-bar{flex:none;display:flex;align-items:center;gap:14px;padding:calc(env(safe-area-inset-top,0px) + 8px) max(16px,env(safe-area-inset-right,0px)) 8px max(16px,env(safe-area-inset-left,0px));background:#0F1730;border-bottom:1px solid rgba(240,240,240,.14)}
+.live-th{background:linear-gradient(135deg,#0F1730,#1B1240)}
+.live-fb{position:absolute;inset:0;display:grid;place-items:center;padding:16px;text-align:center;font:600 clamp(15px,2.4vw,22px) Sora,system-ui,sans-serif;color:rgba(240,240,240,.55)}
+.scr iframe{width:1280px;height:800px;border:0;background:#fff;display:block;position:relative}
+.v-ext{flex:none;font-size:13px;font-weight:600;color:var(--pearl);text-decoration:none;padding:7px 14px;border-radius:999px;border:1px solid rgba(0,217,255,.5);white-space:nowrap}
+.v-ext:hover{background:rgba(0,217,255,.12)}
+.viewer.live .v-scroll{overflow:hidden;background:#fff}
+.viewer.live .v-scroll iframe{width:100%;height:100%;border:0;display:block;background:#fff}
+.viewer.live .v-note.concept{display:none}
+@media(max-width:520px){.viewer.live .v-tag{display:none}.v-ext{padding:7px 12px}}
+.v-note.live{background:linear-gradient(90deg,#0F1730,#1B1240)}
 .v-close{display:inline-flex;align-items:center;gap:8px;padding:9px 16px;border-radius:999px;border:1px solid rgba(240,240,240,.28);background:rgba(240,240,240,.05);color:var(--pearl);font:600 14px var(--font-body);cursor:pointer;white-space:nowrap}
 .v-close:hover{border-color:var(--cyan)}
 .v-url{flex:1;min-width:0;max-width:520px;margin-inline:auto;height:32px;border-radius:16px;background:rgba(240,240,240,.07);color:var(--muted);font-size:13px;line-height:32px;padding:0 16px;text-align:center;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -524,14 +533,13 @@ textarea.inp{min-height:110px;resize:vertical}
   <div class="wrap">
     <div class="sec-head">
       <p class="eyebrow reveal"><i class="dot"></i>Our work</p>
-      <h2 class="h2 rw">Concept websites for different industries.</h2>
-      <p class="lead work-note reveal">These are complete concept websites we designed for imaginary businesses. Open any of them and browse it like a real site. They are design examples, not client projects: none of these businesses exist, and every image is a generated illustration rather than a photograph.</p>
+      <h2 class="h2 rw">Websites we have built.</h2>
+      <p class="lead work-note reveal">Open any of these and browse it like a visitor would: click through the pages, scroll and test it on your phone. The VGK Farmers Market page is a design proposal and is not that business's official website.</p>
     </div>
     <div class="work-grid">
-      <article class="work-card reveal"><div class="tilt"><a class="tilt-in site-open" href="#" data-site="restaurant" aria-label="Open the Ember and Olive restaurant concept website"><span class="tag">Concept</span><div class="browser"><div class="bar"><i></i><i></i><i></i><span class="url">emberandolive.example</span></div><div class="scr-wrap" data-concept="restaurant"><div class="scr"></div></div></div><div class="glare"></div></a></div><div class="cap"><h3>Ember &amp; Olive</h3><p>Restaurant. Menu, hours and table reservations.</p><a class="more" href="#" data-site="restaurant">Explore the concept site <svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></div></article>
-      <article class="work-card reveal" style="--d:.1s"><div class="tilt"><a class="tilt-in site-open" href="#" data-site="clinic" aria-label="Open the Linden Dental clinic concept website"><span class="tag">Concept</span><div class="browser"><div class="bar"><i></i><i></i><i></i><span class="url">lindendental.example</span></div><div class="scr-wrap" data-concept="clinic"><div class="scr"></div></div></div><div class="glare"></div></a></div><div class="cap"><h3>Linden Dental</h3><p>Dental clinic. Treatments, team and appointment requests.</p><a class="more" href="#" data-site="clinic">Explore the concept site <svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></div></article>
-      <article class="work-card reveal"><div class="tilt"><a class="tilt-in site-open" href="#" data-site="fitness" aria-label="Open the Forge Studio gym concept website"><span class="tag">Concept</span><div class="browser"><div class="bar"><i></i><i></i><i></i><span class="url">forgestudio.example</span></div><div class="scr-wrap" data-concept="fitness"><div class="scr"></div></div></div><div class="glare"></div></a></div><div class="cap"><h3>Forge Studio</h3><p>Gym. Live timetable, memberships and free-class booking.</p><a class="more" href="#" data-site="fitness">Explore the concept site <svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></div></article>
-      <article class="work-card reveal" style="--d:.1s"><div class="tilt"><a class="tilt-in site-open" href="#" data-site="atelier" aria-label="Open the Atelier Nord architecture practice concept website"><span class="tag">Concept</span><div class="browser"><div class="bar"><i></i><i></i><i></i><span class="url">atelier-nord.example</span></div><div class="scr-wrap" data-concept="atelier"><div class="scr"></div></div></div><div class="glare"></div></a></div><div class="cap"><h3>Atelier Nord</h3><p>Architecture practice. Project gallery and enquiries.</p><a class="more" href="#" data-site="atelier">Explore the concept site <svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></div></article>
+      <article class="work-card reveal"><div class="tilt"><a class="tilt-in site-open" href="https://digitalgroundwork.github.io/VGK-Farmers-Market/" data-live="0" aria-label="Open VGK Farmers Market website"><span class="tag">Design proposal</span><div class="browser"><div class="bar"><i></i><i></i><i></i><span class="url">VGK Farmers Market</span></div><div class="scr-wrap live-th"><span class="live-fb">VGK Farmers Market</span><div class="scr"><iframe src="https://digitalgroundwork.github.io/VGK-Farmers-Market/" loading="lazy" tabindex="-1" aria-hidden="true" title="" scrolling="no"></iframe></div></div></div><div class="glare"></div></a></div><div class="cap"><h3>VGK Farmers Market</h3><p>Greek delicatessen in Preveza. Olive oil, spices, honey and the family story.</p><a class="more" href="https://digitalgroundwork.github.io/VGK-Farmers-Market/" data-live="0">Open and browse the site <svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></div></article>
+      <article class="work-card reveal" style="--d:.1s"><div class="tilt"><a class="tilt-in site-open" href="https://digitalgroundwork.github.io/containerhouse.cy/" data-live="1" aria-label="Open Swaraki Container Homes website"><span class="tag">Live website</span><div class="browser"><div class="bar"><i></i><i></i><i></i><span class="url">Swaraki Container Homes</span></div><div class="scr-wrap live-th"><span class="live-fb">Swaraki Container Homes</span><div class="scr"><iframe src="https://digitalgroundwork.github.io/containerhouse.cy/" loading="lazy" tabindex="-1" aria-hidden="true" title="" scrolling="no"></iframe></div></div></div><div class="glare"></div></a></div><div class="cap"><h3>Swaraki Container Homes</h3><p>Container homes. Projects gallery, build process and enquiries.</p><a class="more" href="https://digitalgroundwork.github.io/containerhouse.cy/" data-live="1">Open and browse the site <svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></div></article>
+      <article class="work-card reveal"><div class="tilt"><a class="tilt-in site-open" href="https://digitalgroundwork.github.io/Demas-Luxury/" data-live="2" aria-label="Open Dema's Luxury Suites website"><span class="tag">Live website</span><div class="browser"><div class="bar"><i></i><i></i><i></i><span class="url">Dema's Luxury Suites</span></div><div class="scr-wrap live-th"><span class="live-fb">Dema's Luxury Suites</span><div class="scr"><iframe src="https://digitalgroundwork.github.io/Demas-Luxury/" loading="lazy" tabindex="-1" aria-hidden="true" title="" scrolling="no"></iframe></div></div></div><div class="glare"></div></a></div><div class="cap"><h3>Dema's Luxury Suites</h3><p>Short-term rental in Athens. Six suites, location, reviews and booking.</p><a class="more" href="https://digitalgroundwork.github.io/Demas-Luxury/" data-live="2">Open and browse the site <svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></div></article>
     </div>
   </div>
 </section>
@@ -730,12 +738,13 @@ textarea.inp{min-height:110px;resize:vertical}
       <div><a class="brand" href="#top" aria-label="Groundwork Digital, back to top"><span class="lgh" data-logo="footer"></span></a><p>Professional, modern websites for businesses, at prices that make sense.</p><p><a href="mailto:info@groundworkdigital.dev" style="color:var(--cyan);font-weight:600">info@groundworkdigital.dev</a></p></div>
       <nav aria-label="Footer"><a href="#services">Services</a><a href="#work">Work</a><a href="#process">Process</a><a href="#pricing">Pricing</a><a href="#contact">Contact</a></nav>
     </div>
-    <p class="legal">© <span id="yr">2026</span> Groundwork Digital. The websites shown in our work section are concept designs, not client projects.</p>
+    <p class="legal">© <span id="yr">2026</span> Groundwork Digital. The mockups used in the free concept preview are examples with invented businesses.</p>
   </div>
 </footer>
 <div class="viewer" id="viewer" hidden role="dialog" aria-modal="true" aria-label="Concept website">
-  <div class="v-bar"><button class="v-close" type="button"><svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="transform:rotate(180deg)"><path d="M3 8h10M9 4l4 4-4 4"/></svg><span>Back<span class="v-long"> to Groundwork Digital</span></span></button><span class="v-url" id="v-url" aria-hidden="true"></span><span class="v-tag">Concept · not a real business</span></div>
-  <p class="v-note" role="note"><b>Imaginary business.</b> This is a concept website designed by Groundwork Digital. The name, people, prices and text are invented, and every image is a generated illustration, not a photograph.</p>
+  <div class="v-bar"><button class="v-close" type="button"><svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="transform:rotate(180deg)"><path d="M3 8h10M9 4l4 4-4 4"/></svg><span>Back<span class="v-long"> to Groundwork Digital</span></span></button><span class="v-url" id="v-url" aria-hidden="true"></span><span class="v-tag" id="v-tag">Concept · not a real business</span><a class="v-ext" id="v-ext" href="#" hidden></a></div>
+  <p class="v-note concept" role="note"><b>Imaginary business.</b> This is a concept website designed by Groundwork Digital. The name, people, prices and text are invented, and every image is a generated illustration, not a photograph.</p>
+  <p class="v-note live" id="v-live-note" role="note" hidden></p>
   <div class="v-scroll" id="v-scroll"></div>
 </div>
 
@@ -745,7 +754,7 @@ textarea.inp{min-height:110px;resize:vertical}
 
 /* Contact integration: set endpoint to a form service or your own API that accepts JSON via POST.
    Set email to show a visible address after submission if you want one. */
-var CONFIG={endpoint:'https://formsubmit.co/ajax/info@groundworkdigital.dev',email:'info@groundworkdigital.dev'};
+var CONFIG={endpoint:'https://formsubmit.co/ajax/85017962b81bcd7dab3044d322bedd11',email:'info@groundworkdigital.dev'};
 
 var $=function(s,r){return (r||document).querySelector(s)};
 var $$=function(s,r){return Array.prototype.slice.call((r||document).querySelectorAll(s))};
@@ -1047,6 +1056,7 @@ var INERT=['main','footer.foot','#nav','.skip'];
 function openSite(key,name,opener){
   if(!SITES[key]||!viewer)return;
   vopener=opener||document.activeElement;
+  viewer.classList.remove('live');$('#v-tag').textContent='Concept · not a real business';$('#v-ext').hidden=true;$('#v-live-note').hidden=true;
   vscroll.innerHTML='';var host=document.createElement('div');vscroll.appendChild(host);
   mountSite(host,key,{name:name});
   var s=slug(name);vurl.textContent=(s||SITES[key].url.split('.')[0])+'.example';
@@ -1059,7 +1069,7 @@ function closeSite(){
   if(!VIEWING)return;
   viewer.hidden=true;VIEWING=false;document.documentElement.classList.remove('viewing');
   INERT.forEach(function(q){var e=$(q);if(e)e.removeAttribute('inert')});
-  vscroll.innerHTML='';
+  vscroll.innerHTML='';viewer.classList.remove('live');
   if(vopener&&vopener.focus)vopener.focus();
 }
 if(viewer){
@@ -1067,6 +1077,28 @@ if(viewer){
   document.addEventListener('keydown',function(e){if(VIEWING&&e.key==='Escape')closeSite()});
 }
 $$('[data-site]').forEach(function(a){a.addEventListener('click',function(e){e.preventDefault();openSite(a.dataset.site,'',a)})});
+var LIVE=[
+{n:"VGK Farmers Market",u:"https://digitalgroundwork.github.io/VGK-Farmers-Market/",t:"Design proposal",note:"<b>Design proposal.</b> Built by Groundwork Digital for a real family business. This is not their official website."},
+{n:"Swaraki Container Homes",u:"https://digitalgroundwork.github.io/containerhouse.cy/",t:"Live website",note:""},
+{n:"Dema's Luxury Suites",u:"https://digitalgroundwork.github.io/Demas-Luxury/",t:"Live website",note:""}];
+function openLive(i,opener){
+  var L=LIVE[i];if(!L||!viewer)return;
+  vopener=opener||document.activeElement;
+  vscroll.innerHTML='';var fr=document.createElement('iframe');
+  fr.src=L.u;fr.title=L.n+' website';fr.setAttribute('sandbox','allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox');
+  vscroll.appendChild(fr);
+  vurl.textContent=L.n;
+  var tg=$('#v-tag'),ex=$('#v-ext'),ln=$('#v-live-note');
+  tg.textContent=L.t;ex.hidden=true;
+  if(L.note){ln.innerHTML=L.note;ln.hidden=false}else ln.hidden=true;
+  viewer.classList.add('live');
+  viewer.setAttribute('aria-label','Website: '+L.n);
+  viewer.hidden=false;VIEWING=true;document.documentElement.classList.add('viewing');
+  INERT.forEach(function(q){var e=$(q);if(e)e.setAttribute('inert','')});
+  $('.v-close',viewer).focus();
+}
+$$('[data-live]').forEach(function(a){a.addEventListener('click',function(e){e.preventDefault();openLive(+a.dataset.live,a)})});
+
 
 /* Generated illustrations for the concept websites (no photographs, no external files) */
 var ART=(function(){
@@ -2437,5 +2469,4 @@ $$('[data-spot]').forEach(function(el){
 
 })();
 </script>
-
 </body></html>
